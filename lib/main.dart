@@ -48,7 +48,7 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(bottom: 40.0),
+                padding: const EdgeInsets.only(bottom: 20.0),
                 child: Text(
                   'Flutter & UI/UX Developer',
                   style: TextStyle(
@@ -56,6 +56,13 @@ class _MyAppState extends State<MyApp> {
                     color: Colors.white,
                     fontSize: 20.0,
                   ),
+                ),
+              ),
+              SizedBox(
+                height: 20.0,
+                width: 170.0,
+                child: Divider(
+                  color: Colors.white,
                 ),
               ),
 
@@ -137,7 +144,7 @@ class _MyAppState extends State<MyApp> {
           ),
         ),
       ),
-    );;
+    );
   }
 }
 
